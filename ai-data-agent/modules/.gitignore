@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Generated Charts
+outputs/charts/*.png
+
+# Generated Reports
+outputs/reports/*
+
+# Uploaded Data Files
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Model Files
+*.pkl
+*.joblib
+*.h5
+
+# Cache
+.cache/
+.pytest_cache/
+
+# Ollama Temporary Files (optional)
+ollama_cache/
